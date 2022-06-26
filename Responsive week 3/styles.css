@@ -1,0 +1,17 @@
+body {
+  background-color: cyan;
+}
+
+/* use this to put borders around things... */
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:100%;
+  max-height:400px;
+  display: block;
+  margin:auto;
+}

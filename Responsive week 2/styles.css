@@ -1,0 +1,40 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+
+/** This is an external way of css styling **/
+
+
+/* additional styling just to make the background more vibrant */
+body {
+    /* make background to yellow */
+    background-color: yellow;
+}
+
+/* style h1 with 3 different properties */
+h1 {
+    /* style h1 to blue color, so that blue color will be visible in the webpage */
+    color: blue;
+
+    /* set Georgia, 'Times New Roman', Times, serif as the font-family of h1 and the font will be 
+       different from default */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* style the font-size of h1 to 50px, to allow user to view more clearly */
+    font-size: 50px;
+
+    /* make the h1 font be italicized */
+    font-style: italic;
+}
+
+/* style with hover effect */
+h1:hover {
+    /* when mouse hover over h1 text, it changes to cyan color */
+    color: cyan;
+}
+
+/* style cursor */
+h1:hover {
+    /* when mouse hover to the h1 text, the cursor changes to pointer */
+    cursor: pointer;
+}
